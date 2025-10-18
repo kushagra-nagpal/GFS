@@ -3,12 +3,9 @@ This is an implementation of the Google File System in Python, I have implemente
 
 Installation Instructions
 ### Use python version 3.8.0
-
-` python3 -m venv col733env `
-
 `pip install -r requirements.txt`
 
-``source col733env/bin/activate``
+``source GFS/bin/activate``
 
 The implementation consists of a master, chunkserver, and gfs client implementation in the respective files. To run the implementation you must follow these steps:
 1. Configure the GFS model in the `constants.py` file as follows:
